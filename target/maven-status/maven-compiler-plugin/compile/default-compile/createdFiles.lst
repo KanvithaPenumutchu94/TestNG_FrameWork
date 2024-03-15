@@ -1,0 +1,15 @@
+com\opencart\pages\RegistrationPage.class
+com\opencart\exception\FrameworkException.class
+com\opencart\pages\AccountsPage.class
+com\opencart\listeners\Retry.class
+com\opencart\errors\AppError.class
+com\opencart\factory\DriverFactory.class
+com\opencart\utils\WebActions.class
+com\opencart\listeners\AnnotationTransformer.class
+com\opencart\utils\ElementUtil.class
+com\opencart\pages\LoginPage.class
+com\opencart\factory\OptionsManager.class
+com\opencart\listeners\ExtentReportListener.class
+com\opencart\utils\JavaScriptUtil.class
+com\opencart\constants\AppConstants.class
+com\opencart\utils\ExcelUtil.class
