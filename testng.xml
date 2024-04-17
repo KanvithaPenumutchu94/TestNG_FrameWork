@@ -6,8 +6,8 @@
 	<listeners>
 		<listener
 			class-name="com.opencart.listeners.ExtentReportListener" />
-		<listener
-			class-name="com.opencart.listeners.TestAllureListener" /> 
+		<!--  <listener
+			class-name="com.opencart.listeners.TestAllureListener" />  -->
 		<!--  <listener 
 		 	class-name="com.opencart.listeners.AnnotationTransformer" />  -->
 	</listeners>
