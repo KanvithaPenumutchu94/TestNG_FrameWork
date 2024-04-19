@@ -7,6 +7,8 @@ com\opencart\factory\DriverFactory.class
 com\opencart\utils\WebActions.class
 com\opencart\listeners\AnnotationTransformer.class
 com\opencart\utils\ElementUtil.class
+com\opencart\listeners\TestAllureListener.class
+com\opencart\pages\CartPage.class
 com\opencart\pages\LoginPage.class
 com\opencart\factory\OptionsManager.class
 com\opencart\listeners\ExtentReportListener.class
