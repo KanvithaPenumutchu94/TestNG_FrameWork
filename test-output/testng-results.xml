@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-17T12:54:49 IST" name="Opencart app Test Regression Suite" finished-at="2024-04-17T12:55:10 IST" duration-ms="20488">
+  <suite started-at="2024-05-15T11:23:17 IST" name="Opencart app Test Regression Suite" finished-at="2024-05-15T11:24:11 IST" duration-ms="54298">
     <groups>
     </groups>
-    <test started-at="2024-04-17T12:54:49 IST" name="Login Page Test" finished-at="2024-04-17T12:54:59 IST" duration-ms="9192">
+    <test started-at="2024-05-15T11:23:17 IST" name="Login Page Test" finished-at="2024-05-15T11:23:32 IST" duration-ms="15273">
       <class name="com.opencart.tests.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.opencart.tests.LoginPageTest@5a97b17c]" started-at="2024-04-17T12:54:49 IST" name="setUp" finished-at="2024-04-17T12:54:57 IST" duration-ms="7281" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.opencart.tests.LoginPageTest@5740ff5e]" started-at="2024-05-15T11:23:17 IST" name="setUp" finished-at="2024-05-15T11:23:31 IST" duration-ms="13660" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginPageTitleTest()[pri:0, instance:com.opencart.tests.LoginPageTest@5a97b17c]" started-at="2024-04-17T12:54:57 IST" name="loginPageTitleTest" finished-at="2024-04-17T12:54:58 IST" duration-ms="1421" status="PASS">
+        <test-method signature="loginPageTitleTest()[pri:0, instance:com.opencart.tests.LoginPageTest@5740ff5e]" started-at="2024-05-15T11:23:31 IST" name="loginPageTitleTest" finished-at="2024-05-15T11:23:32 IST" duration-ms="1306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.LoginPageTest@5a97b17c]" started-at="2024-04-17T12:54:59 IST" name="tearDown" finished-at="2024-04-17T12:54:59 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.LoginPageTest@5740ff5e]" started-at="2024-05-15T11:23:32 IST" name="tearDown" finished-at="2024-05-15T11:23:32 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.opencart.tests.LoginPageTest -->
     </test> <!-- Login Page Test -->
-    <test started-at="2024-04-17T12:54:49 IST" name="Accounts Page Test" finished-at="2024-04-17T12:55:01 IST" duration-ms="11796">
+    <test started-at="2024-05-15T11:23:33 IST" name="Accounts Page Test" finished-at="2024-05-15T11:23:58 IST" duration-ms="24296">
       <class name="com.opencart.tests.AccountsPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.opencart.tests.AccountsPageTest@22ad1bae]" started-at="2024-04-17T12:54:49 IST" name="setUp" finished-at="2024-04-17T12:55:00 IST" duration-ms="10240" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.opencart.tests.AccountsPageTest@261db982]" started-at="2024-05-15T11:23:33 IST" name="setUp" finished-at="2024-05-15T11:23:56 IST" duration-ms="23231" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,11 +41,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.opencart.tests.AccountsPageTest@22ad1bae]" started-at="2024-04-17T12:55:00 IST" name="accSetup" finished-at="2024-04-17T12:55:01 IST" duration-ms="1029" status="PASS">
+        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.opencart.tests.AccountsPageTest@261db982]" started-at="2024-05-15T11:23:56 IST" name="accSetup" finished-at="2024-05-15T11:23:57 IST" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accSetup -->
-        <test-method signature="isSearchFieldExistTest()[pri:0, instance:com.opencart.tests.AccountsPageTest@22ad1bae]" started-at="2024-04-17T12:55:01 IST" name="isSearchFieldExistTest" finished-at="2024-04-17T12:55:01 IST" duration-ms="17" status="FAIL">
+        <test-method signature="isSearchFieldExistTest()[pri:0, instance:com.opencart.tests.AccountsPageTest@261db982]" started-at="2024-05-15T11:23:57 IST" name="isSearchFieldExistTest" finished-at="2024-05-15T11:23:57 IST" duration-ms="9" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -73,28 +73,33 @@ at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:794)
 at org.testng.TestRunner.run(TestRunner.java:596)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-at java.base/java.lang.Thread.run(Thread.java:834)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isSearchFieldExistTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.AccountsPageTest@22ad1bae]" started-at="2024-04-17T12:55:01 IST" name="tearDown" finished-at="2024-04-17T12:55:01 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.AccountsPageTest@261db982]" started-at="2024-05-15T11:23:58 IST" name="tearDown" finished-at="2024-05-15T11:23:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.opencart.tests.AccountsPageTest -->
     </test> <!-- Accounts Page Test -->
-    <test started-at="2024-04-17T12:54:49 IST" name="Registration Page Test" finished-at="2024-04-17T12:55:10 IST" duration-ms="20488">
+    <test started-at="2024-05-15T11:23:58 IST" name="Registration Page Test" finished-at="2024-05-15T11:24:11 IST" duration-ms="13771">
       <class name="com.opencart.tests.RegistrationPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.opencart.tests.RegistrationPageTest@4091b9c3]" started-at="2024-04-17T12:54:49 IST" name="setUp" finished-at="2024-04-17T12:54:56 IST" duration-ms="7132" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.opencart.tests.RegistrationPageTest@64920dc2]" started-at="2024-05-15T11:23:58 IST" name="setUp" finished-at="2024-05-15T11:24:01 IST" duration-ms="3077" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,11 +110,11 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.opencart.tests.RegistrationPageTest@4091b9c3]" started-at="2024-04-17T12:54:57 IST" name="accSetup" finished-at="2024-04-17T12:54:58 IST" duration-ms="1273" status="PASS">
+        <test-method is-config="true" signature="accSetup()[pri:0, instance:com.opencart.tests.RegistrationPageTest@64920dc2]" started-at="2024-05-15T11:24:01 IST" name="accSetup" finished-at="2024-05-15T11:24:01 IST" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accSetup -->
-        <test-method signature="userRegTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.RegistrationPageTest@4091b9c3]" started-at="2024-04-17T12:55:00 IST" name="userRegTest" data-provider="getUserRegTestExcelData" finished-at="2024-04-17T12:55:04 IST" duration-ms="3780" status="PASS">
+        <test-method signature="userRegTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.RegistrationPageTest@64920dc2]" started-at="2024-05-15T11:24:03 IST" name="userRegTest" data-provider="getUserRegTestExcelData" finished-at="2024-05-15T11:24:06 IST" duration-ms="3336" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -140,7 +145,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.RegistrationPageTest@4091b9c3]" started-at="2024-04-17T12:55:04 IST" name="userRegTest" data-provider="getUserRegTestExcelData" finished-at="2024-04-17T12:55:07 IST" duration-ms="3161" status="PASS">
+        <test-method signature="userRegTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.RegistrationPageTest@64920dc2]" started-at="2024-05-15T11:24:06 IST" name="userRegTest" data-provider="getUserRegTestExcelData" finished-at="2024-05-15T11:24:09 IST" duration-ms="2804" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,7 +176,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegTest -->
-        <test-method signature="userRegTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.RegistrationPageTest@4091b9c3]" started-at="2024-04-17T12:55:07 IST" name="userRegTest" data-provider="getUserRegTestExcelData" finished-at="2024-04-17T12:55:10 IST" duration-ms="3074" status="PASS">
+        <test-method signature="userRegTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.opencart.tests.RegistrationPageTest@64920dc2]" started-at="2024-05-15T11:24:09 IST" name="userRegTest" data-provider="getUserRegTestExcelData" finished-at="2024-05-15T11:24:11 IST" duration-ms="2691" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -202,7 +207,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.RegistrationPageTest@4091b9c3]" started-at="2024-04-17T12:55:10 IST" name="tearDown" finished-at="2024-04-17T12:55:10 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.opencart.tests.RegistrationPageTest@64920dc2]" started-at="2024-05-15T11:24:11 IST" name="tearDown" finished-at="2024-05-15T11:24:11 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
